@@ -29,7 +29,7 @@ export default function Profile() {
     const [loading,setLoading] = useState(false)
     const dispatch = useDispatch()
     const [profileAvaterEdit,setProfileAvatarEdit]=useState(false)
-    const handleOnChange=()=>{
+    const handleOnChange=(e)=>{
         const{name,value}=e.target
         setUserData((preve)=>{
             return{
