@@ -11,7 +11,7 @@ import Axios from '../utils/Axios';
 import SummaryApi from '../common/SummaryApi';
 import AxiosToastError from '../utils/AxiosToastError';
 import successAlert from '../utils/SuccessAlert';
-import { useEffect } from 'react';
+
 
 export default function UploadProduct() {
   const [data,setData] = useState({
