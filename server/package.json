@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Irfan Hassan",
   "license": "ISC",
-  "description": "",
+  "description": "Fully Functional Ecommarce",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.4.0",
