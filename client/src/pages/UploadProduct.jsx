@@ -10,7 +10,7 @@ import Axios from '../utils/Axios';
 import SummaryApi from '../common/SummaryApi';
 import AxiosToastError from '../utils/AxiosToastError';
 import successAlert from '../utils/SuccessAlert';
-import { uploadImage } from '../utils/UploadImage';
+import  uploadImage  from '../utils/uploadImage';
 
 export default function UploadProduct() {
   const [data,setData] = useState({
